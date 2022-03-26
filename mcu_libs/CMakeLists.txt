@@ -7,4 +7,4 @@ add_library(${PROJECT_NAME} ${SOURCES})
 add_library(mcu::libs ALIAS ${PROJECT_NAME})
 
 
-target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/hal/Inc)
+target_include_directories(${PROJECT_NAME} PUBLIC ./)

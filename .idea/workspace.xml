@@ -12,17 +12,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Inc/gpio.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/gpio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Src/posix.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/posix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/task/Inc/create.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Inc/create.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_lib/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +120,16 @@
       <workItem from="1648245212270" duration="4317000" />
       <workItem from="1648249641505" duration="140000" />
       <workItem from="1648249874763" duration="1765000" />
-      <workItem from="1648255292492" duration="1387000" />
+      <workItem from="1648255292492" duration="1573000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1648256721866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648256721866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

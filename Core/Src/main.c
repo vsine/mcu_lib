@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "posix.h"
+#include "hal/Inc/posix.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
