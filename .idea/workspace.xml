@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
     </list>
@@ -120,7 +119,7 @@
       <workItem from="1648245212270" duration="4317000" />
       <workItem from="1648249641505" duration="140000" />
       <workItem from="1648249874763" duration="1765000" />
-      <workItem from="1648255292492" duration="1573000" />
+      <workItem from="1648255292492" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -129,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648256721866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1648256882659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648256882659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

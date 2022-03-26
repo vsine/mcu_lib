@@ -1,5 +1,5 @@
 //
-//include code,example: #include "hal/Inc/posix.h"
+
 //
 
 #ifndef INC_411_POSIX_H
