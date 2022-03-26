@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "../../mcu_lib/hal/Inc/posix.h"
+#include "posix.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

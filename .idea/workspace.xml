@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="mcu_lib" targetName="mcu_lib.elf" />
+      <config projectName="mcu_lib" targetName="mcu_libs" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -11,7 +12,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="" />
+    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Inc/gpio.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/gpio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/gpio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/hal/Src/posix.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/posix.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/task/Inc/create.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Inc/create.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,6 +52,7 @@
     <option name="minorVersion" value="3.4" />
   </component>
   <component name="ProjectId" id="26tR2O2PkGsipZj0QCVf4bBSst7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,12 +76,17 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD mcu_lib">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mcu_lib.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mcu_lib" TARGET_NAME="mcu_lib.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mcu_lib" RUN_TARGET_NAME="mcu_lib.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mcu_lib.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mcu_lib" TARGET_NAME="mcu_lib.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mcu_lib" RUN_TARGET_NAME="mcu_lib.elf">
+    <configuration name="mcu_libs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mcu_lib" TARGET_NAME="mcu_libs" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,6 +109,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake 应用程序.mcu_lib.elf" />
+      <item itemvalue="CMake 应用程序.mcu_libs" />
       <item itemvalue="OpenOCD 下载并运行.OCD mcu_lib" />
       <item itemvalue="OpenOCD 下载并运行.OCD 411" />
     </list>
@@ -103,11 +125,23 @@
       <workItem from="1648240697425" duration="4468000" />
       <workItem from="1648245212270" duration="4317000" />
       <workItem from="1648249641505" duration="140000" />
-      <workItem from="1648249874763" duration="1407000" />
+      <workItem from="1648249874763" duration="1765000" />
+      <workItem from="1648255292492" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
