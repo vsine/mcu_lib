@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,22 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1634" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
@@ -35,6 +50,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/Src/main.c" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,11 +87,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD mcu_lib">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mcu_lib.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mcu_lib" TARGET_NAME="mcu_lib.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mcu_lib" RUN_TARGET_NAME="mcu_lib.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -119,7 +132,9 @@
       <workItem from="1648245212270" duration="4317000" />
       <workItem from="1648249641505" duration="140000" />
       <workItem from="1648249874763" duration="1765000" />
-      <workItem from="1648255292492" duration="4598000" />
+      <workItem from="1648255292492" duration="7752000" />
+      <workItem from="1648320369733" duration="1225000" />
+      <workItem from="1648417290358" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -149,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648257976940</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <created>1648262486066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648262486066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
