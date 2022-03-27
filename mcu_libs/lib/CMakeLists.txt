@@ -12,4 +12,6 @@ add_library(${PROJECT_NAME} ${SOURCES})
 add_library(lib::main ALIAS ${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} PUBLIC ./)
 
-target_link_libraries(${PROJECT_NAME} lib::u8g2)
+target_link_libraries(${PROJECT_NAME}
+        lib::u8g2
+        )
