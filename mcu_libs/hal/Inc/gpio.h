@@ -5,5 +5,6 @@
 #ifndef MCU_LIB_GPIO_H
 #define MCU_LIB_GPIO_H
 void test();
-void digitalWrite();
+void digitalWrite(unsigned int port,unsigned int pin);
+//void digitalWrite(unsigned int pin);
 #endif //MCU_LIB_GPIO_H
