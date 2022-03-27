@@ -52,3 +52,4 @@ add_library(lib::u8g2 ALIAS ${PROJECT_NAME})
 target_include_directories( ${PROJECT_NAME}
         PUBLIC ./
         )
+

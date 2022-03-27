@@ -60,7 +60,13 @@ add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=$${PROJECT_BINARY_DI
 add_link_options(-mcpu=${mcpu} -mthumb -mthumb-interwork)
 add_link_options(-T $${LINKER_SCRIPT})
 
+#添加此行
+add_subdirectory(mcu_libs)
+
 add_executable($${PROJECT_NAME}.elf $${SOURCES} $${LINKER_SCRIPT})
+
+#添加此行
+target_link_libraries(${PROJECT_NAME}.elf mcu::libs)
 
 set(HEX_FILE $${PROJECT_BINARY_DIR}/$${PROJECT_NAME}.hex)
 set(BIN_FILE $${PROJECT_BINARY_DIR}/$${PROJECT_NAME}.bin)
