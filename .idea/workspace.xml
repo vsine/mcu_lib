@@ -12,7 +12,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init" />
+    <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
+      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +89,11 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD mcu_lib">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mcu_lib.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mcu_lib" TARGET_NAME="mcu_lib.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mcu_lib" RUN_TARGET_NAME="mcu_lib.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -131,7 +141,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="480000" />
+      <workItem from="1648417290358" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -175,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648417460180</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init">
+      <created>1648417987220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648417987220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

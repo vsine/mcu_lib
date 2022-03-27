@@ -21,6 +21,7 @@
 
 
 project (mcu_libs)
+add_subdirectory(lib)
 file(GLOB_RECURSE SOURCES "task/*.c" "hal/*.c")
 add_library(${PROJECT_NAME} ${SOURCES})
 add_library(mcu::libs ALIAS ${PROJECT_NAME})
