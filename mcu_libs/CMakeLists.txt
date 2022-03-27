@@ -26,8 +26,9 @@ file(GLOB_RECURSE SOURCES "task/*.c" "hal/*.c")
 add_library(${PROJECT_NAME} ${SOURCES})
 add_library(mcu::libs ALIAS ${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} PUBLIC ./)
-target_link_libraries(${PROJECT_NAME} lib::main)
 
+target_link_libraries(${PROJECT_NAME}
+        lib::main)
 
 
 
