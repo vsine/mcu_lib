@@ -14,8 +14,7 @@
 #define  OLED_RST_GPIO_Port GPIOC
 #define OLED_RST_Pin GPIO_PIN_13
 #endif
-void u8g2_gpio_dc(char set);
-void u8g2_gpio_rst(char set);
+
 //end u8g2
 
 
