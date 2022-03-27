@@ -10,5 +10,5 @@ void create(){
 
 void loop(){
     HAL_Delay(2000);
-    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
+    digitalWrite(GPIOC,GPIO_PIN_13);
 }
