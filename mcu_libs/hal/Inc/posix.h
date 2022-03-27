@@ -5,8 +5,13 @@
 #ifndef INC_411_POSIX_H
 #define INC_411_POSIX_H
 
-//include your mcu header files in where.
+//mcu switch
+#define STM32_HAL_VERSION
+
+
+#ifdef STM32_HAL_VERSION
 #include "stm32f4xx_hal.h"
+#endif
 
 //firmware header files
 #include "../../task/Inc/create.h"

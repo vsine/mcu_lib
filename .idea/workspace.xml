@@ -16,10 +16,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Inc/gpio.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/gpio.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="6059000" />
+      <workItem from="1648417290358" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648422861684</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init">
+      <created>1648423515417</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648423515417</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

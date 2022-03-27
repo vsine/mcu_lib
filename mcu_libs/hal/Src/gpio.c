@@ -6,5 +6,5 @@
 
 void test(){}
 void digitalWrite(GPIO_TypeDef* GPIOx,uint16_t pin,GPIO_PinState PinState){
-    HAL_GPIO_TogglePin()
+    HAL_GPIO_WritePin(GPIOx,pin,PinState);
 }
