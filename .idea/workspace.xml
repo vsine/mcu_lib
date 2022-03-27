@@ -14,116 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_bitmap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_box.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_buffer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_circle.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_cleardisplay.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_i2c_hal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_i2c_hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_d_memory.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_d_setup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_font.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_fonts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_hvline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_input_value.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_intersection.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_kerning.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_line.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_ll_hvline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_message.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_polygon.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_selection_list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_setup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8log.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8log_u8g2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8log_u8x8.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_8x8.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_byte.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_cad.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_capture.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_a2printer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_il3820_296x128.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ist3020.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ist7920.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ks0108.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_lc7981.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ld7032_60x32.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ls013b7dh03.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_max7219.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_pcd8544_84x48.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_pcf8812.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_pcf8814_hx1230.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_s1d15e06.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sbn1661.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sed1330.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sh1106_64x32.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sh1106_72x40.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sh1107.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sh1108.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_sh1122.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1305.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_128x32.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_128x64_noname.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_2040x16.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_48x64.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_64x32.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_64x48.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_72x40.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1306_96x16.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1309.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1316.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1317.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1318.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1320.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1322.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1325.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1326.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1327.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1329.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1606_172x72.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_ssd1607_200x200.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7511.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st75256.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7528.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st75320.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7565.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7567.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7571.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7586s_erc240160.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7586s_s028hn118a.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7586s_ymc240160.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7588.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_st7920.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_stdio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_t6963.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1601.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1604.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1608.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1610.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1611.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1617.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1638.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1701_dogs102.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_d_uc1701_mini12864.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_debounce.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_display.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_fonts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_gpio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_input_value.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_message.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_selection_list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_setup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_string.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_u16toa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8x8_u8toa.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/lib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +152,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="1707000" />
+      <workItem from="1648417290358" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -315,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648418367486</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init">
+      <created>1648419026848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648419026848</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
