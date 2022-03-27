@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(libary)
+project(lib)
 
 
 # Add sub directories
