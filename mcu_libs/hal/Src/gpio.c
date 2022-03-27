@@ -3,8 +3,13 @@
 //
 
 #include "../Inc/gpio.h"
+#ifdef STM32_HAL_VERSION
 
-void test(){}
-void digitalWrite(GPIO_TypeDef* GPIOx,uint16_t pin,GPIO_PinState PinState){
-    HAL_GPIO_WritePin(GPIOx,pin,PinState);
+#endif
+
+void digitalWrite(char port,char pin,char PinState){
+#ifdef STM32_HAL_VERSION
+
+#endif
+
 }
