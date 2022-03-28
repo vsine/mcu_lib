@@ -1,7 +1,7 @@
 project (u8g2)
 
 
-#If you use i2c,you must add u8g2_com_stm32_hw_i2c_hal.c and remove u8g2_com_stm32_hw_spi_hal.c
+# Add a library with the above sources
 
 add_library(${PROJECT_NAME}
 u8g2_bitmap.c
@@ -43,7 +43,7 @@ u8x8_setup.c
 u8x8_string.c
 u8x8_u8toa.c
 u8x8_u16toa.c
-        )
+)
 
 add_library(lib::u8g2 ALIAS ${PROJECT_NAME})
 

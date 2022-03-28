@@ -14,6 +14,7 @@ uint8_t u8x8_byte_4wire_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int,void *
         break;
         case U8X8_MSG_BYTE_SET_DC:
             digitalWrite(OLED_DC_GPIO_Port, OLED_DC_Pin, arg_int);
+
         break;
         case U8X8_MSG_BYTE_START_TRANSFER:
         break;

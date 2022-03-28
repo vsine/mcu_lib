@@ -6,7 +6,7 @@
 #define MCU_LIB_CONFIG_H
 
 #include "../hal/Inc/posix.h"
-
+char u8g2_spi_send(uint8_t arg_int,void *arg_ptr);
 #define USE_U8G2_LIB_SPI
 
 
@@ -21,7 +21,6 @@
 #define U8G2_SPI hspi1
 extern SPI_HandleTypeDef U8G2_SPI;
 #endif
-char u8g2_spi_send(uint8_t arg_int,void *arg_ptr);
 
 #endif
 
