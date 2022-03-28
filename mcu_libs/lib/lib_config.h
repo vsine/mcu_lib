@@ -11,7 +11,7 @@
 #ifdef STM32_HAL_VERSION
 #define OLED_DC_GPIO_Port 3
 #define OLED_DC_Pin 13
-#define  OLED_RST_GPIO_Port 3
+#define OLED_RST_GPIO_Port 3
 #define OLED_RST_Pin 13
 #endif
 
