@@ -9,6 +9,8 @@ void create(){
 }
 
 void loop(){
-    HAL_Delay(2000);
-    //digitalWrite(GPIOC,GPIO_PIN_13);
+    soft_delay(1000);
+    HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,1);
+    soft_delay(1000);
+    digitalWrite(2,13,0);
 }

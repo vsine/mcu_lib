@@ -9,10 +9,10 @@
 
 //u8g2
 #ifdef STM32_HAL_VERSION
-#define OLED_DC_GPIO_Port GPIOC
-#define OLED_DC_Pin GPIO_PIN_13
-#define  OLED_RST_GPIO_Port GPIOC
-#define OLED_RST_Pin GPIO_PIN_13
+#define OLED_DC_GPIO_Port 3
+#define OLED_DC_Pin 13
+#define  OLED_RST_GPIO_Port 3
+#define OLED_RST_Pin 13
 #endif
 
 //end u8g2

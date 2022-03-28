@@ -10,4 +10,10 @@ void into(){
         loop();
 }
 
+void soft_delay(unsigned int ms){
+#ifdef STM32_HAL_VERSION
+    HAL_Delay(ms);
+#endif
+}
+
 

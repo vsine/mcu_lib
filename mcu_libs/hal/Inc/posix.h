@@ -21,6 +21,6 @@ void into();
 
 
 //posix
-
+void soft_delay(unsigned int ms);
 
 #endif //INC_411_POSIX_H
