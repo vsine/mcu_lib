@@ -15,12 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Inc/posix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/hal/Src/posix.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/hal/Src/posix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +159,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="8827000" />
+      <workItem from="1648417290358" duration="9274000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -299,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648425556051</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="init">
+      <created>1648426228873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648426228873</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
