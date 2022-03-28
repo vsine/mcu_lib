@@ -13,13 +13,13 @@
 
 //u8g2
 #ifdef  USE_U8G2_LIB_SPI
+#define OLED_DC_GPIO_Port 1
+#define OLED_DC_Pin 0
+#define OLED_RST_GPIO_Port 1
+#define OLED_RST_Pin 1
 #ifdef STM32_HAL_VERSION
 #define U8G2_SPI hspi1
 extern SPI_HandleTypeDef U8G2_SPI;
-#define OLED_DC_GPIO_Port 3
-#define OLED_DC_Pin 13
-#define OLED_RST_GPIO_Port 3
-#define OLED_RST_Pin 13
 #endif
 char u8g2_spi_send(uint8_t arg_int,void *arg_ptr);
 
