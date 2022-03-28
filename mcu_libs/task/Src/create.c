@@ -18,11 +18,13 @@ void create(){
 }
 
 void loop(){
-
+    soft_delay(1000);
+    digitalWrite(2,13,1);
+    soft_delay(1000);
+    digitalWrite(2,13,0);
     HAL_Delay(100);
     u8g2Init(&u8g2);
     u8g2_ClearBuffer(&u8g2);
     u8g2_DrawLine(&u8g2,50,20,60,19);
-    u8g2_DrawStr(&u8g2,20,20,"Hello world");
     u8g2_SendBuffer(&u8g2);
 }

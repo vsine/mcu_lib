@@ -43,7 +43,7 @@ u8x8_setup.c
 u8x8_string.c
 u8x8_u8toa.c
 u8x8_u16toa.c
-)
+        )
 
 add_library(lib::u8g2 ALIAS ${PROJECT_NAME})
 
