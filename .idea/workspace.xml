@@ -15,9 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +160,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="19269000" />
+      <workItem from="1648417290358" duration="19401000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -368,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648440263423</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="init">
+      <created>1648440458604</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648440458604</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -48,9 +48,7 @@ u8x8_u16toa.c
 add_library(lib::u8g2 ALIAS ${PROJECT_NAME})
 
 
-target_include_directories( ${PROJECT_NAME}
-        PUBLIC ./
-        )
+target_include_directories( ${PROJECT_NAME} PUBLIC ./)
 
-target_link_libraries(${PROJECT_NAME}
-        lib::main)
+#This is necessary
+target_link_libraries(${PROJECT_NAME} lib::main)
