@@ -1,7 +1,7 @@
 project (u8g2)
 
 
-# Add a library with the above sources
+#If you use i2c,you must add u8g2_com_stm32_hw_i2c_hal.c and remove u8g2_com_stm32_hw_spi_hal.c
 
 add_library(${PROJECT_NAME}
 u8g2_bitmap.c
@@ -9,7 +9,6 @@ u8g2_box.c
 u8g2_buffer.c
 u8g2_circle.c
 u8g2_cleardisplay.c
-u8g2_com_stm32_hw_i2c_hal.c
 u8g2_com_stm32_hw_spi_hal.c
 u8g2_d_memory.c
 u8g2_d_setup.c

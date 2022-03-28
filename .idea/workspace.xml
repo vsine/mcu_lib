@@ -16,7 +16,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e367637a-4dc1-4ae7-b994-8e1134e587b6" name="变更" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/lib_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_lib.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_lib.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/lib/u8g2/u8g2_com_stm32_hw_spi_hal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" beforeDir="false" afterPath="$PROJECT_DIR$/mcu_libs/task/Src/create.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +174,7 @@
       <workItem from="1648249874763" duration="1765000" />
       <workItem from="1648255292492" duration="7752000" />
       <workItem from="1648320369733" duration="1225000" />
-      <workItem from="1648417290358" duration="14277000" />
+      <workItem from="1648417290358" duration="16446000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648256721866</created>
@@ -331,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648432985039</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="init">
+      <created>1648433546922</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648433546922</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
