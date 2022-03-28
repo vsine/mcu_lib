@@ -1,13 +1,13 @@
 #include "u8g2_com_stm32_hw_spi_hal.h"
 #include "../lib_config.h"
-extern SPI_HandleTypeDef hspi1;
+
 uint8_t u8x8_byte_4wire_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int,void *arg_ptr)
 {
 
     switch (msg)
     {
         case U8X8_MSG_BYTE_SEND:
-          if (HAL_SPI_Transmit(&hspi1,arg_ptr,arg_int,1000)==HAL_OK)
+          if (u8g2_spi_send( arg_int,arg_ptr))
                 return 0;
         break;
         case U8X8_MSG_BYTE_INIT:
