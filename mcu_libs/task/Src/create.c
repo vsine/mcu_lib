@@ -19,7 +19,6 @@ void create(){
 }
 char  t=0;
 void loop(){
-
     HAL_Delay(100);
     u8g2_ClearBuffer(&u8g2);
     u8g2_DrawStr(&u8g2,20,50,"sce");
@@ -28,6 +27,4 @@ void loop(){
     u8g2_DrawCircle(&u8g2,32,32,t,U8G2_DRAW_ALL);
     u8g2_DrawCircle(&u8g2,96,32,t,U8G2_DRAW_ALL);
     u8g2_SendBuffer(&u8g2);
-
-
 }

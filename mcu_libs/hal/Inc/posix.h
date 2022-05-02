@@ -5,9 +5,9 @@
 #ifndef INC_411_POSIX_H
 #define INC_411_POSIX_H
 
-//mcu switch
+//mcu switch.
 #define STM32_HAL_VERSION
-
+//mcy switch end.
 
 #ifdef STM32_HAL_VERSION
 #include "stm32f4xx_hal.h"
